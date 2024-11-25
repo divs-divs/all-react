@@ -1,0 +1,13 @@
+
+Deboounccing and throttling both are thhe performance optimization techniques for web applications,
+
+In deboucing we add a certain delay between two  function callls
+In thhrottling we limit the rate oof function ccalling
+
+Suppose you have a input texxt firelld where user is typing something
+and each kkey strke will trigger a function 
+so instead of calling the function at each kkeystroke  , I wil wait for the moment when user will take pause in the typing annd techniquesI wil 
+triiggerr the fuunction call.
+
+On the oother hand, thhroottlling is similliar to deboounccing but with thhhe diifferencce that
+instead of waiting for user to takke a pause, I will ensure function call at regullarr intervals.

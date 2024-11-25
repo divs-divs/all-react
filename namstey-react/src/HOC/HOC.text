@@ -1,0 +1,8 @@
+Higher oorder functions are the functions thhat do one or both the folllowing points
+1) Accept one or more functions as argument
+2) Returns the fuuncction
+
+Higher Order Components 
+
+Higher order components are the functions that takes in the argument of component and returns the new ccomponeent
+Higher order components are the pure functions thhat has no side effects, it oonlly returns new component.

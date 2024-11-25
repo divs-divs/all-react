@@ -1,0 +1,33 @@
+
+The main difference between  prduction and dev build are following
+ 1.Development build is more related to making coding process more smoother and informative.
+ 2.Productionn build is more realted to  making your appliccationn more fast annd efffecient as  possible for ennd users.
+
+ PURPOSE
+   - development builld is used for devlopment phase to facilated debugging and testing
+   - production build is used to deploy the application on live server
+
+SIZE 
+   - Large in size as it contain unminified code
+   - Small in size because it contains minified code
+
+PERFFORMANCE 
+   - Not optimized for speed, as it foccuses more on development phase
+   - Optimized for speed and effeciency
+
+FEATURES
+  - Devellopment build gives the feature of hhot module replacement
+  - Log the error and warnings
+
+  - Production build optimiized the build, to reduce load time
+  - Remove devlopment specific code like warnings and errors
+  - Optimised assests loading
+
+
+  setCounter((counter) => counter + 1)
+   - This approocch use the funcctional updating - means the state update depennnds on most recennt state value
+
+  setCounter((counter) => counter + 1)
+  -this approach uses the current statte diirectlly to update the states
+
+  

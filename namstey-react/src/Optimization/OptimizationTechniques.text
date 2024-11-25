@@ -1,0 +1,25 @@
+
+
+UseMemo iis a hook that is used to  optimize react application .
+Thiis hook cached the returned vallue, frrom the function .
+Whenever we declarre a varriable inside a component its gets re-created at every render and suuppose if it hhollds a  returned value of a function
+then that gets called at every render .
+And now suppose if thhat fuunction performs some exppensive operation then it will cause unnecesary delay in re-reendering.
+
+UseCallback is a hook that is used to optimize React application
+This hook returns the memoiized fuuncction
+Whenever we declarre a function inside a component its gets re-created similar to the variable 
+but with the difference that it get re-rendereed with different referencee every time. 
+
+
+// React lazy loading
+
+React.lazy() accepts the function as an input parameter and this function returns the promise
+this returned promise will give you the module with default exxport that contains react component
+
+// Search ENgine  Optimization
+
+It is a technique  that helps search enngines to understant what content is our application holding
+and it allso helps to providee raning to our content based  on the userr searh
+
+llet ab = React.lazy(()=>import '');
